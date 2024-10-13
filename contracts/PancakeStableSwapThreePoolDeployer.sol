@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.0;
 
-import "@openzeppelin-4.5.0/contracts/access/Ownable.sol";
+import "./modules/openzeppelin-contracts/contracts/access/Ownable.sol";
 import "./PancakeStableSwapThreePool.sol";
 
 contract PancakeStableSwapThreePoolDeployer is Ownable {

@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.0;
 
-import "@openzeppelin-4.5.0/contracts/access/Ownable.sol";
-import "@openzeppelin-4.5.0/contracts/token/ERC20/utils/SafeERC20.sol";
-import "@openzeppelin-4.5.0/contracts/token/ERC20/extensions/IERC20Metadata.sol";
-import "@openzeppelin-4.5.0/contracts/security/ReentrancyGuard.sol";
+import "./modules/openzeppelin-contracts/contracts/access/Ownable.sol";
+import "./modules/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol";
+import "./modules/openzeppelin-contracts/contracts/token/ERC20/extensions/IERC20Metadata.sol";
+import "./modules/openzeppelin-contracts/contracts/security/ReentrancyGuard.sol";
 import "./interfaces/IPancakeStableSwapLP.sol";
 
 contract PancakeStableSwapTwoPool is Ownable, ReentrancyGuard {

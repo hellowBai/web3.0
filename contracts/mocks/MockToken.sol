@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.0;
 
-import "@openzeppelin-4.5.0/contracts/token/ERC20/ERC20.sol";
+import "../modules/openzeppelin-contracts/contracts/token/ERC20/ERC20.sol";
 
 contract MockToken is ERC20 {
     constructor() ERC20("Binance USD", "BUSD") {

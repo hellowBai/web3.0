@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.10;
-import "@openzeppelin-4.5.0/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin-4.5.0/contracts/token/ERC20/utils/SafeERC20.sol";
-import "@openzeppelin-4.5.0/contracts/access/Ownable.sol";
+pragma solidity ^0.8.0;
+import "../modules/openzeppelin-contracts/contracts/token/ERC20/IERC20.sol";
+import "../modules/openzeppelin-contracts/contracts/token/ERC20/utils/SafeERC20.sol";
+import "../modules/openzeppelin-contracts/contracts/access/Ownable.sol";
 import "../interfaces/IWBNB.sol";
 import "../interfaces/IPancakeStableSwap.sol";
 
